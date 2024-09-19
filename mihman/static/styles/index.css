@@ -1,0 +1,79 @@
+
+body {
+    padding-bottom: 20px;
+  }
+  
+  .navbar {
+    padding-bottom: 20px;
+  }
+  
+
+  .subcategories {
+    display: none; /* Hide by default */
+  }
+  
+  .subcategories:target {
+    display: block; /* Show when targeted */
+  }
+
+
+
+
+/* registration form styles */
+
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+.form-group input.error {
+  border-color: red;
+}
+.form-group .error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.form-group input[type="submit"] {
+  background-color: #000157;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 10px;
+}
+.form-group input[type="submit"]:hover {
+  background-color: #000157;
+}
+.show-password {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.show-password input {
+  width: auto;
+  margin-right: 5px;
+}
+.login-link {
+  text-align: center;
+  margin-top: 20px;
+}
+.login-link a {
+  color: #000157;
+  text-decoration: none;
+}
+.login-link a:hover {
+  text-decoration: underline;
+}
