@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.users',
-    'apps.products',
+    'apps.accounts',
+    
 ]
 
 MIDDLEWARE = [
@@ -53,6 +53,9 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'mihman.urls'
+
+AUTH_USER_MODEL = 'accounts.MyUser'
+
 
 TEMPLATES = [
     {
@@ -69,6 +72,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'mihman.wsgi.application'
 
