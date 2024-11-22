@@ -46,7 +46,7 @@ body {
   margin-top: 5px;
 }
 .form-group input[type="submit"] {
-  background-color: #000157;
+  background-color: #005706;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -55,7 +55,7 @@ body {
   padding: 10px;
 }
 .form-group input[type="submit"]:hover {
-  background-color: #000157;
+  background-color: #005706;
 }
 .show-password {
   display: flex;
@@ -71,7 +71,7 @@ body {
   margin-top: 20px;
 }
 .login-link a {
-  color: #000157;
+  color: #005706;
   text-decoration: none;
 }
 .login-link a:hover {
